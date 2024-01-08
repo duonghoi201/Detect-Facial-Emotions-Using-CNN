@@ -15,8 +15,11 @@ Sau khi xem xét kỹ lại ảnh trong dataset, mình phát hiện ra có rất
 Đào tạo mô hình với epoch=200, sử dụng Early_Stopping với cài đặt là nếu giá trị val_accuracy không tăng sau 20 epoch liên tục thì dừng huấn luyện. Quá trình huấn luyện đã dừng lại tại Epoch 75 và khôi phục lại trọng số của Epoch 55. 
 
 Ứng dụng được viết bằng ngôn ngữ python sử dụng phương pháp Haar-Cascade của OpenCV để phát hiện khuôn mặt người, load file .h5(chứa trọng số mô hình) và file .json(chứa kiến trúc mô hình) vào chương trình. Hệ thống có thể nhận dạng thành công 5 cảm xúc đề ra.
+
+Tối ưu hệ thống: Đang tiến hành
+
 # Demo
-
+https://youtu.be/Dkxw0M5r9Dw 
 # Technology
-
+Kaggle Jupyter Notebook, Pycharm IDE
 # Reference
