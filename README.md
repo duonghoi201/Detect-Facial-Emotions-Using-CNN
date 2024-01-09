@@ -4,8 +4,8 @@
 Đề tài yêu cầu Xây dựng ứng dụng nhận dạng cảm xúc của con người sử dụng mạng nơ-ron tích chập CNN
 
 Mô hình nhận dạng sẽ sử dụng bộ dữ liệu FER-2013, bộ dữ liệu này cung cấp 7 nhãn là 7 cảm xúc trên khuôn mặt con người. Tuy nhiên, với đề tài này, mình đã thay đổi dataset chỉ sử dụng 5 nhãn là (angry, happy, neutral, sad, surprise). Lý do là bởi :
-  + disgust có lượng dữ liệu quá ít so với các tập khác
-  + fear dễ nhầm lẫn với angry ngay cả khi là người bình thường tự đánh giá
+  + **disgust** có lượng dữ liệu quá ít so với các tập khác
+  + **fear** dễ nhầm lẫn với **angry** ngay cả khi là người bình thường tự đánh giá
 
 Dataset ban đầu chứa 32.398 ảnh, trong đó có 28.709 cho bộ train và 3.589 cho bộ test. Sau khi xóa 2 nhãn không dùng đến, dataset còn 30.219 ảnh ( 24.176 train + 6043 test). Mình xây dựng mô hình CNN với 8 lớp conv, tuy nhiên tỷ lệ chính xác sau khi đào tạo với 100 epoch chỉ khoảng 74-75%, đặc biệt các cảm xúc angry - happy, neutral - sad hay bị nhận dạng nhầm. 
 
